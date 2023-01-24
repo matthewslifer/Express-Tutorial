@@ -3,13 +3,11 @@
 const express = require('express');
 const app = express();
 const logger = require('./logger')
-const authorize = require('./authorize')
 
-// Will be executed in this order, place multiple middleware functions in an array
-app.use([logger, authorize]);
+app.use(logger);
 
 //Will apply the middleware to the APIs
-// app.use('/api', logger)
+app.use('/api', logger)
 
 app.get('/', (req, res) => {
     res.send("Home");
