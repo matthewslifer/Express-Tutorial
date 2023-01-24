@@ -18,6 +18,6 @@ walks through Express and HTTP in web development and applications. This course 
 13. APP.USE
 14. CRUD Operations
 15. Express Router Setup
-16. Express Router Controller
+16. Express Controllers
 
 This course also goes through an example project using Express to build a simple application.

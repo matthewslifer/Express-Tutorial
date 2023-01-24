@@ -1,0 +1,12 @@
+API vs SSR
+
+API
+    API - JSON
+    Send Data
+    Res.JSON()
+
+SSR
+    Server Side Rendering
+    Template
+    Send Template
+    Res.Render()
